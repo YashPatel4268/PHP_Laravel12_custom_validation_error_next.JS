@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/xampp/htdocs/PHP_Laravel12_Custome_Validation_Error_Using_Next.JS/frontend/pages/_app.js"],"sourcesContent":["import 'bootstrap/dist/css/bootstrap.min.css';\r\n\r\nexport default function App({ Component, pageProps }) {\r\n  return <Component {...pageProps} />;\r\n}\r\n"],"names":[],"mappings":";;;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}}]
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/xampp/htdocs/PHP_Laravel12_custom_validation_error_next.JS/pages/_app.js"],"sourcesContent":["import 'bootstrap/dist/css/bootstrap.min.css';\r\n\r\nexport default function App({ Component, pageProps }) {\r\n  return <Component {...pageProps} />;\r\n}\r\n"],"names":[],"mappings":";;;;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}}]
 }

@@ -19,7 +19,7 @@ class UserController extends Controller
             'password' => [
                 'required',
                 'min:8', // minimum 8 characters
-
+                'confirmed', // Confirm password
                 'regex:/^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&]).+$/'// Regex ensures at least 1 lowercase, 1 uppercase, and 1 special character
 
             ]
@@ -31,6 +31,7 @@ class UserController extends Controller
             'email.unique' => 'Email already exists',
             'password.required' => 'Password is required',
             'password.regex' => 'Password must contain at least 1 uppercase letter, 1 lowercase letter, and 1 special character',
+            'password.confirmed' => 'Password and Confirm Password must match'
         ]);
 
         if ($validator->fails()) {

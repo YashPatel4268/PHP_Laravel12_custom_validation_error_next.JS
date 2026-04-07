@@ -18,10 +18,16 @@ class UserController extends Controller
             'email' => 'required|email|unique:users,email',
             'password' => [
                 'required',
+<<<<<<< HEAD
                 'min:8', // minimum 8 characters
                 'confirmed', // Confirm password
                 'regex:/^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&]).+$/'// Regex ensures at least 1 lowercase, 1 uppercase, and 1 special character
 
+=======
+                'min:8',
+                'confirmed', //  Confirm password
+                'regex:/^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&]).+$/'
+>>>>>>> main
             ]
         ], [
             'name.required' => 'Name is required',
@@ -30,7 +36,12 @@ class UserController extends Controller
             'email.email' => "Please include an '@' in the email address.",
             'email.unique' => 'Email already exists',
             'password.required' => 'Password is required',
+<<<<<<< HEAD
             'password.regex' => 'Password must contain at least 1 uppercase letter, 1 lowercase letter, and 1 special character',
+=======
+            'password.min' => 'Password must be at least 8 characters',
+            'password.regex' => 'Password must contain uppercase, lowercase, and special character',
+>>>>>>> main
             'password.confirmed' => 'Password and Confirm Password must match'
         ]);
 
@@ -54,5 +65,9 @@ class UserController extends Controller
             'data' => $user
         ]);
     }
+<<<<<<< HEAD
 }
     
+=======
+}
+>>>>>>> main

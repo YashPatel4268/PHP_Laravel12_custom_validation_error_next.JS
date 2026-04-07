@@ -43,7 +43,11 @@ export default function Home() {
       }
     }
 
+<<<<<<< HEAD
     // Password validation
+=======
+    //  Password validation
+>>>>>>> main
     if (name === "password") {
       if (value.length < 8) {
         newErrors.password = ["Minimum 8 characters required"];
@@ -52,7 +56,11 @@ export default function Home() {
       }
     }
 
+<<<<<<< HEAD
     // Confirm password validation (FIXED)
+=======
+    //  Confirm password validation (FIXED)
+>>>>>>> main
     if (name === "password" || name === "password_confirmation") {
       if (
         updatedForm.password_confirmation &&

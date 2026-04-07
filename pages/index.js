@@ -43,7 +43,11 @@ export default function Home() {
       }
     }
 
+<<<<<<< HEAD
     // Password validation
+=======
+    //  Password validation
+>>>>>>> stages
     if (name === "password") {
       if (value.length < 8) {
         newErrors.password = ["Minimum 8 characters required"];
@@ -52,7 +56,11 @@ export default function Home() {
       }
     }
 
+<<<<<<< HEAD
     // Confirm password validation (FIXED)
+=======
+    //  Confirm password validation (FIXED)
+>>>>>>> stages
     if (name === "password" || name === "password_confirmation") {
       if (
         updatedForm.password_confirmation &&
@@ -156,7 +164,11 @@ export default function Home() {
               )}
             </div>
 
+<<<<<<< HEAD
             {/*  Confirm Password (FIXED UI) */}
+=======
+            {/* ✅ Confirm Password (FIXED UI) */}
+>>>>>>> stages
             <div className="mb-3">
               <label>Confirm Password</label>
               <input

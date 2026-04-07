@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 [00:00:01.555] Server  LOG     ✓ Ready in 1138ms
 [00:14:33.875] Server  LOG     ✓ Compiled in 26ms
 [00:14:35.775] Server  LOG     ✓ Compiled in 12ms
 [00:14:38.541] Server  LOG     ✓ Compiled in 13ms
 [00:14:40.022] Server  LOG     ✓ Compiled in 12ms
+=======
+[00:00:02.404] Server  LOG     ✓ Ready in 1615ms
+[00:00:20.019] Server  LOG     ○ Compiling / ...
+>>>>>>> stages

@@ -58,7 +58,11 @@ function Home() {
                 delete newErrors.email;
             }
         }
+<<<<<<< HEAD
         // Password validation
+=======
+        //  Password validation
+>>>>>>> stages
         if (name === "password") {
             if (value.length < 8) {
                 newErrors.password = [
@@ -68,7 +72,11 @@ function Home() {
                 delete newErrors.password;
             }
         }
+<<<<<<< HEAD
         // Confirm password validation (FIXED)
+=======
+        //  Confirm password validation (FIXED)
+>>>>>>> stages
         if (name === "password" || name === "password_confirmation") {
             if (updatedForm.password_confirmation && updatedForm.password !== updatedForm.password_confirmation) {
                 newErrors.password_confirmation = [
